@@ -7,7 +7,7 @@ import pickle
 
 popular_df = pickle.load(open('popular.pkl','rb'))
 
-API_KEY = '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'
+API_KEY = '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'
 openai.api_key = API_KEY
 model='text-davinci-003'
 
