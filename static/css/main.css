@@ -1,0 +1,220 @@
+/* .bodySpacing {
+    font-family: sans-serif;
+    padding: 2%;
+    margin: 10;
+} */
+
+
+/* 
+.login_Content {
+    display: inline-block;
+    padding: 2%;
+    margin: 10;
+    border: 2px ridge;
+    border-radius: 10px;
+    align-items: center;
+} */
+
+.bg-transparent {
+    background-color: #fff;
+}
+
+.bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity));
+}
+
+.indexBody {
+    height: 100%;
+    margin: 50px;
+    display: flex;
+    align-items: left;
+    background-color: white;
+}
+
+.wrapper {
+    height: 100px;
+    display: inline-flex;
+}
+
+.wrapper .static-text {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.wrapper .dynamic-text {
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+.darkmode--activated .wrapper .dynamic-text {
+    filter: invert(1) !important;
+    isolation: isolate;
+}
+
+.darkmode--activated .nav-link {
+    filter: invert(1) !important;
+    isolation: isolate;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #f44336;
+}
+
+.darkmode--activated .dynamic-text li span::after {
+    background-color: #eee;
+}
+
+.dynamic-text li {
+    color: #f44336;
+    list-style: none;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+.dynamic-text li span {
+    position: relative;
+}
+
+.dynamic-text li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    background: white;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #f44336;
+    animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+.content-index {
+    margin-top: 100px;
+    margin-left: -520px;
+}
+
+.content {
+    display: inline-block;
+    padding: 2%;
+    margin: 10;
+    border: 2px ridge;
+    border-radius: 10px;
+    align-items: center;
+}
+
+img {
+    max-height: 10%;
+    max-width: 100%;
+}
+
+.register {
+    margin-left: 200px;
+    padding: 20px;
+    /* width: justify; */
+    /* height: fit-content; */
+    align-items: center;
+}
+
+.relative {
+    align-content: center;
+    width: 90vh
+}
+
+.inner {
+    width: 56%;
+}
+
+.user_dashboard {
+    padding: 20px;
+}
+
+
+/* .form-floating .form-control {
+    height: calc(2rem + 2px);
+} */
+
+.chatbot {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    text-align: center;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    width: 500px;
+    /* border: 1px solid red; */
+    /* border-radius: 10%; */
+    padding: 10px;
+    margin: 0 auto;
+    border: 2px ridge;
+    border-radius: 10px;
+}
+
+.chatbot_body {
+    padding-bottom: 20px;
+}
+
+.response {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.67);
+    display: none;
+    margin: 10px;
+    padding: 10px;
+    width: 455px;
+    border: 0 ridge;
+    border-radius: 10px;
+    border-color: #f44336;
+    background-color: rgb(249, 137, 137);
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 300px;
+}
+
+.user_preferences {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.67);
+    display: none;
+    margin: 10px;
+    padding: 10px;
+    width: 455px;
+    border: 0 ridge;
+    border-radius: 10px;
+    border-color: #f44336;
+    background-color: rgb(249, 137, 137);
+}
+
+.w-full {
+    width: 56%;
+}
+
+
+/* .dash_contents {
+    margin-left: 300px;
+    padding-top: -50px;
+}
+ */
+
+
+/* DELIMITERSource: https://stackoverflow.com/questions/2281087 */
